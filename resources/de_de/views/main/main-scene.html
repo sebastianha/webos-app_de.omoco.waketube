@@ -1,0 +1,72 @@
+<!--
+WakeTube - Wake up with a random YouTube video.
+Version 1.0.5 (01. Apr 2010)
+
+Copyright (C) 2010 Sebastian Hammerl (E-Mail: waketube@omoco.de)
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 3 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, see <http://www.gnu.org/licenses/>.
+-->
+<div id='admob_ad'></div>
+
+<div id="donatemessage" style="display:none"><center><table border=0 cellpadding=0 cellspacing=0 width=240><tr><td><small>
+	<br><center>Wenn du diese kostenlose App magst kannst du spenden. Du kannst diese Nachricht im Einstellungsmenü abschalten.<br><br>
+	<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TEUPLVZ5UBWNQ"><img width="138" height="39" src="images/btn_donate_LG.gif"></a></center><br>
+</small></td></tr></table></center></div>
+
+<div id="main">
+    <div id="main-body" class="itemFull">
+		<div class="palm-group">
+			<div class="palm-group-title" x-mojo-loc=''>BITTE BEACHTEN</div>
+			<div class="palm-list">
+		   		<div class="palm-row single">
+					<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+		      			<font size=2>
+		      				<b>Die App benutzt einen externen Anbieter (YouTube), welcher unter Umständen nicht erreichbar sein kann. Bitte nicht für wichtige Alarme benutzen!</b>
+		      			</font>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="palm-group">
+			<div class="palm-group-title" x-mojo-loc=''>Optionale Suchwörter / Url</div>
+			<div class="palm-list">
+		   		<div class="palm-row single">
+					<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+						<div class="title">
+		      				<div id="keywords" name="textField"  x-mojo-element="TextField"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="palm-group">
+			<div class="palm-group-title" x-mojo-loc=''>Zeit</div>
+			<div class="palm-list">
+		      	<div x-mojo-element="TimePicker" id="timepicker" class="timepickerClass" name="timepickerName"></div>
+				<table class="palm-list-section-label">
+					<tr>
+					<td>
+						<span x-mojo-loc="">&nbsp;&nbsp;&nbsp;Alarm:</span>		
+					</td>
+					<td>
+						<div id="onofftoggle" x-mojo-element="ToggleButton" class="toggle-text"></div>
+					</td>	
+				</tr>
+			</table>
+			</div>
+		</div>
+	</div>
+</div>
+<!--<div id='debug'></div>-->
+<button id='test' class='palm-button'>Test</button>

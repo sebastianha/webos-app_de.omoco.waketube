@@ -1,0 +1,10 @@
+{
+	"id": "de.omoco.waketube",
+	"version": "1.0.7",
+	"vendor": "waketube.omoco.de",
+	"type": "web",
+	"main": "index.html",
+	"title": "WakeTube",
+	"icon": "icon.png",
+	"noWindow": true
+}
